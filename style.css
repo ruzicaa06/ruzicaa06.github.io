@@ -1,0 +1,194 @@
+#indexContainer h2{
+    color: #18010e;
+    padding-left: 90px;
+}
+#indexContainer h3{
+    color: #18010e;
+    padding-left: 20px;
+}
+body{
+    background: #ccb1b1;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#indexContainer{
+    margin: auto;
+    width: 800px;
+    padding: 110px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    padding: 50px;
+    list-style: none;
+
+}
+.menu ul li a{
+    color: #18010e;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.menu ul li a:hover{
+    color: bisque;
+}
+#img1{
+    width:250px;
+    height: 250px;
+    margin: auto;
+}
+.image1{
+    width:800px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+.menu1 ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+}
+.menu1 ul li{
+    list-style: none;
+    padding: 0 25px 25px 25px;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: #18010e;
+    font-weight: bold;
+}
+.menu1 ul li a:hover{
+    color: bisque;
+}
+.menu1 img{
+    width: 90px;
+}
+.menu1 ul li:not(:first-of-type){
+    padding-top: 40px;
+}
+#contactContainer{
+    display: grid;
+    padding-left: 100px;
+    grid-template-columns: 120px 700px 400px;
+}
+.socialmedia ul li{
+    list-style:none;
+    padding: 20px 0 20px 0;
+}
+.socialmedia ul li:first-child a:first-child{
+    color: transparent;
+    background: url(images/instagram.png) no-repeat;
+    width: 1020px;
+    height: 680px;
+    background-size:50px;
+    padding: 16px;
+}
+.socialmedia ul li:nth-child(2) a:first-child{
+    color: transparent;
+    background: url(images/github.png) no-repeat;
+    width: 1020px;
+    height: 680px;
+    background-size:40px;
+    padding: 16px;
+    position: relative;
+    left:6px;
+}
+.socialmedia ul li:nth-child(3) a:first-child{
+    color: transparent;
+    background: url(images/letterboxd.png) no-repeat;
+    width: 1020px;
+    height: 680px;
+    background-size:45px;
+    padding: 17px;
+    position: relative;
+    left:5px;
+}
+
+.socialmedia ul li a:nth-child(2){
+    text-decoration: none;
+    position: relative;
+    top:-8px;
+    margin-left: 30px;
+    color: #18010e;
+    font-weight: bold;
+}
+.socialmedia{
+    padding-top: 40px;
+}
+.socialmedia ul li:nth-child(3) a:nth-child(2){
+    position: relative;
+}
+#footerContact{
+    margin-top: 200px;
+}
+.socialmedia ul li a:hover{
+    color: bisque;
+}
+#current{
+    color: bisque;
+}
+.sendbutton, .resetbutton{
+    border: transparent;
+    background: url(images/backEmail.png);
+    width: 100px;
+    background-size: 100px;
+    background-position-y: -7px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.sendbutton:hover, .resetbutton:hover{
+    color: #18010e;
+}
+.faculty p{
+    width:500px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top:40px;
+}
+.faculty{
+    width:1000px;
+    display: flex;
+    margin-left:300px;
+}
+.bbal p{
+    width:300px;
+    text-align: center;
+    padding-top: 30px;
+}
+.bbal{
+    margin-left:150px;
+    width:500px;
+    display: flex;
+}
+.row2{
+    width:1100px;
+    display: flex;
+}
+.freetime p{
+    width:300px;
+    text-align: center;
+    padding-top:50px;
+}
+.freetime{
+    display: flex;
+    margin-left: 100px;
+}
+.music{
+    width:300px;
+}
+.row3{
+    display: flex;
+    width: 1024px;
+    margin: auto;
+}
+.movies p, .movies ul{
+    width:300px;
+    margin-left:400px;
+}
+.movies ul li{
+    list-style-image: url(images/rsz_1rsz_1email.png);
+    padding: 10px;
+}
